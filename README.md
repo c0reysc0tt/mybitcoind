@@ -10,6 +10,8 @@ To run the image in interactive mode with a bash prompt:
 docker run --name mybitcoind -it c0reysc0tt/mybitcoind /bin/bash
 ```
 
+Testing
+---------------------
 Testing from bash within the container should look something like this:
 ```bash
 root@055619d7d030:/# bitcoind -version
