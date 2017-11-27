@@ -1,5 +1,5 @@
 # mybitcoind
-Dockerfile that builds Bitcoin Core in an Ubuntu 14.04 container
+The Dockerfile builds Bitcoin Core in an Ubuntu 14.04 container.
 
 NOTES
 ---------------------
