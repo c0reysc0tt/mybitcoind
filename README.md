@@ -6,11 +6,13 @@ NOTES
 This image is a proof of concept only.  For space reasons, it doesn't mount a volume for the blockchain.  It's based on Ubuntu:14.04 and Bitcoin Core has been compiled from scratch.
 
 To run the image in interactive mode with a bash prompt:
-```docker run --name mybitcoind -it c0reysc0tt/mybitcoind /bin/bash
+```bash
+docker run --name mybitcoind -it c0reysc0tt/mybitcoind /bin/bash
 ```
 
 Testing from bash within the container should look something like this:
-```root@055619d7d030:/# bitcoind -version
+```bash
+root@055619d7d030:/# bitcoind -version
 Bitcoin Core Daemon version v0.15.99.0-a892218
 Copyright (C) 2009-2017 The Bitcoin Core developers
 
