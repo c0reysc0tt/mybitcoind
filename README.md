@@ -1,8 +1,9 @@
 # mybitcoind
+====================
 Dockerfile that builds Bitcoin Core in an Ubuntu 14.04 container
 
 NOTES
-====================
+---------------------
 This image is a proof of concept only.  For space reasons, it doesn't mount a volume for the blockchain.  It's based on Ubuntu:14.04 and Bitcoin Core has been compiled from scratch.
 
 To run the image in interactive mode with a bash prompt:
