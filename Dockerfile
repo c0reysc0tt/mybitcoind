@@ -32,5 +32,5 @@ RUN mkdir $INSTDIR && cd $INSTDIR && git clone https://github.com/bitcoin/bitcoi
 
 EXPOSE 8332 8333 18332 18333 18444
 
-CMD ["bitcoind -testnet -daemon"]
+CMD ["test_bitcoin"]
 
